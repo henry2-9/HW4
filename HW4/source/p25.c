@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int addyone(int &);
+int addyone(int&);
 
 int main(void)
 {
@@ -12,7 +12,7 @@ int main(void)
 	return 0;
 }
 
-int addyone(int &xref)
+int addyone(int& xref)
 {
 	xref++;
 	printf("xref=%d\n", xref);
